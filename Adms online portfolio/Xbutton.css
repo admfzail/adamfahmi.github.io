@@ -1,0 +1,43 @@
+body {
+  font-family: verdana;
+  font-weight: 200;
+}
+
+.open-close-btn {
+  display: block;
+  margin: auto;
+  width: 30px; height: 30px;
+  vertical-align: right;
+  line-height: 23px;
+  color: #333;
+  text-decoration: none;
+  font-size: 28px;
+  border: 3px solid transparent;
+  text-align: right;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-radius: 50%;
+	position: relative;
+}
+  
+    .open-close-btn :hover {
+    color: red;
+    border: 3px solid grey;
+    transform: scale(0.8) rotateZ(90deg);
+  }
+
+.close2 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
